@@ -21,6 +21,15 @@
     "type": "git",
     "url": "https://github.com/nutboltu/storybook-addon-mock.git"
   },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/ts/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
   "keywords": [
     "storybook",
     "mock",
