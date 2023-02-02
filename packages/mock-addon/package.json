@@ -63,7 +63,7 @@
   },
   "peerDependencies": {
     "@storybook/addons": ">=7.0.0",
-    "@storybook/api": ">=7.0.0",
+    "@storybook/manager-api": ">=7.0.0",
     "@storybook/blocks": ">=7.0.0",
     "@storybook/components": ">=7.0.0",
     "@storybook/theming": ">=7.0.0",
