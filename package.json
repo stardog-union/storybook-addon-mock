@@ -1,10 +1,14 @@
 {
   "name": "storybook-addon-mock",
+  "version": "0.0.1",
   "description": "A monorepo for storybook-addon-mock",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "main": "packages/mock-addon/dist/cjs/index.js",
+  "module": "packages/mock-addon/dist/esm/index.js",
+  "types": "packages/mock-addon/dist/ts/index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "yarn workspaces run build",
