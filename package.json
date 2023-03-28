@@ -6,8 +6,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "main": "packages/mock-addon/dist/cjs/index.js",
-  "module": "packages/mock-addon/dist/esm/index.js",
+  "main": "packages/mock-addon/preset.js",
+  "module": "packages/mock-addon/preset.js",
   "types": "packages/mock-addon/dist/ts/index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",

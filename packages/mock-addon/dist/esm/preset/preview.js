@@ -1,2 +1,5 @@
 import { withRoundTrip } from '../withRoundTrip';
-export var decorators = [withRoundTrip];
+var preview = {
+  decorators: [withRoundTrip]
+};
+export default preview;

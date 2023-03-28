@@ -3,7 +3,10 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.decorators = void 0;
+exports["default"] = void 0;
 var _withRoundTrip = require("../withRoundTrip");
-var decorators = [_withRoundTrip.withRoundTrip];
-exports.decorators = decorators;
+var preview = {
+  decorators: [_withRoundTrip.withRoundTrip]
+};
+var _default = preview;
+exports["default"] = _default;

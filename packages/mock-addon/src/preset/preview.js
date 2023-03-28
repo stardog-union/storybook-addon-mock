@@ -1,3 +1,6 @@
 import { withRoundTrip } from '../withRoundTrip';
 
-export const decorators = [withRoundTrip];
+const preview = {
+    decorators: [withRoundTrip],
+};
+export default preview;
